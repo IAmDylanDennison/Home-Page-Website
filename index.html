@@ -22,7 +22,22 @@ time_is_widget.init({Mansfield__Ohio_z161:{template:"TIME<br>DATE", time_format:
 </script>
 
 <div class = "name">
-    <h>Dylan Dennison</h>
+
+    <script>
+            var today = new Date()
+            var curHr = today.getHours()
+            var afternoon = "Afternoon"
+            var morning = "Morning"
+            var evening = "Evening"
+            if (curHr < 12) {
+            document.getElementById("time").textContent = morning
+            } else if (curHr < 18) {
+            document.getElementById("time").textContent = afternoon
+            } else {
+            document.getElementById("time").textContent = evening
+            } 
+    </script>
+    <h>Good <span id="time"> </span>, Dylan</h>
 </div>
 
 
