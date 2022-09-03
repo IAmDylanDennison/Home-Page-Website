@@ -5,21 +5,22 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .icon-bar {
-    width: 40%; 
-    bottom: 300px;
-    right: 508px;
+    width: 50%; 
+    bottom: 500px;
+    right: 440px;
     position: absolute;
     overflow: auto; 
+    
   }
   
   .icon-bar a {
     float: left; 
     text-align: center; 
     width: 20%; 
-    padding: 12px 0; 
+    padding: 20px 0; 
     transition: all 0.3s ease; 
     color: white; 
-    font-size: 36px; 
+    font-size: 40px; 
   }
   
   .icon-bar a:hover {
