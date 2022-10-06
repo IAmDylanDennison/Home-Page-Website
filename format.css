@@ -5,26 +5,26 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .icon-bar {
-    width: 50%; 
-    bottom: 500px;
-    right: 440px;
-    position: absolute;
-    overflow: auto; 
-    
+    padding-left: 20%;
+    padding-right: 20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
   }
-  
+
   .icon-bar a {
-    float: left; 
-    text-align: center; 
-    width: 20%; 
-    padding: 20px 0; 
-    transition: all 0.3s ease; 
-    color: white; 
-    font-size: 40px; 
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 20px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 40px;
   }
-  
+
   .icon-bar a:hover {
-    background-color: lightblue; 
+    background-color: lightblue;
   }
 
   .weather {
@@ -40,6 +40,3 @@ body {
     color: white;
     font-size:25px ;
   }
-  
-  
-
