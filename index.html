@@ -1,52 +1,60 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <link rel="stylesheet" type="text/css" href="format.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<title>Welcome Dylan</title>
+  <link rel="stylesheet" type="text/css" href="format.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Welcome Dylan</title>
 </head>
+
 <body>
-<div class = "icon-bar">
+  <div class="icon-bar">
     <a href="https://www.google.com/"><i class="fa fa-search"></i></a>
     <a href="https://outlook.live.com/mail/0/"><i class="fa fa-envelope"></i></a>
     <a href="https://www.bovada.lv/"><i class="fa fa-trophy" aria-hidden="true"></i></a>
     <a href="https://robinhood.com/login"><i class="fa fa-line-chart" aria-hidden="true"></i></a>
     <a href="https://www.youtube.com/"><i class="fa fa-television" aria-hidden="true"></i></a>
-</div>
+  </div>
 
-<a href="https://time.is/Mansfield,_Ohio" id="time_is_link" rel="nofollow" style="font-size:0px;color:white;background:none">Time in Mansfield:</a>
-<span id="Mansfield__Ohio_z161" style="font-size:25px;color:white;background:none"></span>
-<script src="//widget.time.is/en.js"></script>
-<script>
-time_is_widget.init({Mansfield__Ohio_z161:{template:"TIME<br>DATE", time_format:"12hours:minutes:secondsAMPM", date_format:"dayname, monthname dnum, year"}});
-</script>
+  <a href="https://time.is/Mansfield,_Ohio" id="time_is_link" rel="nofollow" style="font-size:0px;color:white;background:none">Time in Mansfield:</a>
+  <span id="Mansfield__Ohio_z161" style="font-size:25px;color:white;background:none"></span>
+  <script src="//widget.time.is/en.js"></script>
+  <script>
+    time_is_widget.init({
+      Mansfield__Ohio_z161: {
+        template: "TIME<br>DATE",
+        time_format: "12hours:minutes:secondsAMPM",
+        date_format: "dayname, monthname dnum, year"
+      }
+    });
+  </script>
 
-<div class = "name">
+  <div class="name">
     <h>Good <span id="time"> </span>, Dylan.</h>
-</div>
+  </div>
 
 
 
-<div class = "weather">
-    <a href="https://www.weatherwx.com/forecast/oh/mansfield.html" target="_blank"><img style="width: 140px;" 
-        src="https://www.weatherwx.com/fetch-images.php?forecast=hourly&place=mansfield&state=oh&country=us&config=png&alt=hwitransparentwww&hwvbg=transparent" 
-        alt="Click for the latest Mansfield weather forecast."></a>
-</div>
+  <div class="weather">
+    <a href="https://www.weatherwx.com/forecast/oh/mansfield.html" target="_blank"><img style="width: 140px;"
+        src="https://www.weatherwx.com/fetch-images.php?forecast=hourly&place=mansfield&state=oh&country=us&config=png&alt=hwitransparentwww&hwvbg=transparent" alt="Click for the latest Mansfield weather forecast."></a>
+  </div>
 
 
-<script>
+  <script>
     var today = new Date()
     var curHr = today.getHours()
     var afternoon = "afternoon"
     var morning = "morning"
     var evening = "evening"
     if (curHr < 12) {
-    document.getElementById("time").textContent = morning
+      document.getElementById("time").textContent = morning
     } else if (curHr < 18) {
-    document.getElementById("time").textContent = afternoon
+      document.getElementById("time").textContent = afternoon
     } else {
-    document.getElementById("time").textContent = evening
-    } 
-</script>
+      document.getElementById("time").textContent = evening
+    }
+  </script>
 </body>
+
 </html>
