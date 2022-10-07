@@ -4,6 +4,8 @@ body {
     overflow-x: hidden;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+
 .icon-bar {
     padding-left: 20%;
     padding-right: 20%;
@@ -33,10 +35,12 @@ body {
     right: 0px;
   }
 
-  .name {
+  .time {
     position: absolute;
-    top: 67px;
+    top: 10px;
     left: 8px;
     color: white;
     font-size:25px ;
   }
+
+
