@@ -26,6 +26,7 @@ body {
   }
 
   .icon-bar a:hover {
+    border-radius: 33px;
     background-color: lightblue;
   }
 
